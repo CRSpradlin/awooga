@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <div id="awooga" onclick="playSound()" class="w3-button w3-red"></div>
+    <audio id="awooga_sound" controls autoplay>
+      <source src="https://drive.google.com/file/d/1v6OhOBM0FWQGpNdM7ENCvq4QuSilJHan/preview" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <script>
+      function playSound(){
+        document.getElementById('awooga_sound').play();
+      }
+    </script>
+  </body>
+</html>
